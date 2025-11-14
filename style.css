@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.logo-my {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.2em;
+    color: #FF6B35;
+}
+
+.logo-future {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.2em;
+    color: #DC2626;
+}
+
+.logo-skills {
+    font-family: 'Nunito', 'Quicksand', 'Rounded', sans-serif;
+    font-weight: 700;
+    color: #0A66C2;
+    font-size: 0.8em;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.input-section {
+    margin-bottom: 30px;
+}
+
+.input-section label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: left;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 0;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+.input-wrapper:focus-within {
+    border-color: #0A66C2;
+}
+
+.prefix {
+    padding: 14px 12px;
+    font-weight: 600;
+    color: #000000;
+    background-color: #f5f5f5;
+    border-right: 2px solid #000000;
+    border-radius: 6px 0 0 6px;
+    font-size: 1rem;
+}
+
+.input-wrapper input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #000000;
+    background-color: transparent;
+    font-family: 'Nunito', 'Quicksand', sans-serif;
+}
+
+.input-wrapper input::placeholder {
+    color: #999999;
+    letter-spacing: 1px;
+}
+
+.input-section small {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    color: #666666;
+    text-align: left;
+}
+
+.buttons-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn {
+    padding: 14px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Nunito', 'Quicksand', sans-serif;
+    text-transform: none;
+}
+
+.btn-primary {
+    background-color: #0A66C2;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #095195;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(10, 102, 194, 0.3);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-secondary {
+    background-color: #DC2626;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #B91C1C;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+.btn-secondary:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 2rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .input-wrapper input {
+        font-size: 1rem;
+    }
+}
+

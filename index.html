@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSG Attendance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span class="logo-my">My</span><span class="logo-skills">SKILLS</span><span class="logo-future">future</span>
+        </div>
+        
+        <h1>SSG Attendance</h1>
+        
+        <div class="input-section">
+            <label for="courseId">Course Run ID</label>
+            <div class="input-wrapper">
+                <span class="prefix">RA</span>
+                <input 
+                    type="text" 
+                    id="courseId" 
+                    placeholder="000000" 
+                    maxlength="6"
+                    pattern="[0-9]{6}"
+                    inputmode="numeric"
+                >
+            </div>
+            <small>Enter 6 digits</small>
+        </div>
+        
+        <div class="buttons-section" id="buttonsSection" style="display: none;">
+            <button class="btn btn-primary" id="qrButton">
+                Generate QR Code
+            </button>
+            <button class="btn btn-secondary" id="attendanceButton">
+                View Attendance Status
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
