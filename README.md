@@ -2,6 +2,18 @@
 
 A simple web-based attendance tool designed to help trainers and learners streamline attendance taking for MySkillsFuture funded courses in Singapore.
 
+## ⚠️ Important Disclaimer
+
+**This tool is NOT an official tool from MySkillsFuture.gov.sg, the Government of Singapore, or GovTech Singapore.** 
+
+This is purely a convenience tool created for trainers' and learners' convenience to facilitate attendance taking for MySkillsFuture funded courses.
+
+**Users are reminded:**
+- **Do NOT abuse or misuse the attendance taking tool**
+- **Do NOT abuse or misuse any fundings from MySkillsFuture**
+- Use this tool responsibly and in accordance with MySkillsFuture's terms and conditions
+- This tool is provided as-is for convenience purposes only
+
 ## Overview
 
 The SSG Attendance Tool provides a quick and easy way to access QR code scanning and attendance status checking for SkillsFuture Singapore (SSG) funded courses. Users simply need to enter the 6-digit Course Run Code to access the necessary attendance functions.
