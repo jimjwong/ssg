@@ -60,11 +60,11 @@ h1 {
 
 .input-section label {
     display: block;
-    font-size: 0.9rem;
+    font-size: 1.17rem;
     font-weight: 600;
     margin-bottom: 10px;
     color: #000000;
-    text-align: left;
+    text-align: center;
 }
 
 .input-wrapper {
@@ -75,6 +75,8 @@ h1 {
     padding: 0;
     background-color: #ffffff;
     transition: border-color 0.3s ease;
+    max-width: 280px;
+    margin: 0 auto;
 }
 
 .input-wrapper:focus-within {
@@ -88,7 +90,10 @@ h1 {
     background-color: #f5f5f5;
     border-right: 2px solid #000000;
     border-radius: 6px 0 0 6px;
-    font-size: 1rem;
+    font-size: 1.65rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .input-wrapper input {
@@ -96,7 +101,7 @@ h1 {
     border: none;
     outline: none;
     padding: 14px 16px;
-    font-size: 1.1rem;
+    font-size: 1.65rem;
     font-weight: 600;
     letter-spacing: 2px;
     color: #000000;
@@ -112,9 +117,9 @@ h1 {
 .input-section small {
     display: block;
     margin-top: 8px;
-    font-size: 0.75rem;
+    font-size: 0.975rem;
     color: #666666;
-    text-align: left;
+    text-align: center;
 }
 
 .buttons-section {
@@ -188,7 +193,7 @@ h1 {
     }
     
     .input-wrapper input {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
