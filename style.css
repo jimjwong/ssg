@@ -23,28 +23,17 @@ body {
 
 .logo {
     margin-bottom: 40px;
-    font-size: 2.5rem;
-    font-weight: 600;
-    letter-spacing: -0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo-my {
-    font-family: 'Brush Script MT', cursive;
-    font-size: 1.2em;
-    color: #FF6B35;
-}
-
-.logo-future {
-    font-family: 'Brush Script MT', cursive;
-    font-size: 1.2em;
-    color: #DC2626;
-}
-
-.logo-skills {
-    font-family: 'Nunito', 'Quicksand', 'Rounded', sans-serif;
-    font-weight: 700;
-    color: #0A66C2;
-    font-size: 0.8em;
+.logo-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 120px;
+    width: auto;
+    object-fit: contain;
 }
 
 h1 {
@@ -191,8 +180,11 @@ h1 {
     }
     
     .logo {
-        font-size: 2rem;
         margin-bottom: 30px;
+    }
+    
+    .logo-img {
+        max-height: 100px;
     }
     
     h1 {
@@ -244,8 +236,11 @@ h1 {
     }
     
     .logo {
-        font-size: 1.75rem;
         margin-bottom: 25px;
+    }
+    
+    .logo-img {
+        max-height: 90px;
     }
     
     h1 {
@@ -296,8 +291,11 @@ h1 {
     }
     
     .logo {
-        font-size: 1.5rem;
         margin-bottom: 20px;
+    }
+    
+    .logo-img {
+        max-height: 80px;
     }
     
     h1 {
@@ -354,8 +352,11 @@ h1 {
     }
     
     .logo {
-        font-size: 3rem;
         margin-bottom: 50px;
+    }
+    
+    .logo-img {
+        max-height: 150px;
     }
     
     h1 {
@@ -398,8 +399,11 @@ h1 {
     }
     
     .logo {
-        font-size: 1.5rem;
         margin-bottom: 15px;
+    }
+    
+    .logo-img {
+        max-height: 70px;
     }
     
     h1 {
