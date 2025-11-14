@@ -183,17 +183,258 @@ h1 {
     transform: translateY(0);
 }
 
-@media (max-width: 600px) {
+/* Tablet and below (768px and below) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    
     .logo {
         font-size: 2rem;
+        margin-bottom: 30px;
     }
     
     h1 {
         font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    
+    .input-section {
+        margin-bottom: 25px;
+    }
+    
+    .input-section label {
+        font-size: 1.05rem;
+    }
+    
+    .input-wrapper {
+        max-width: 100%;
+    }
+    
+    .prefix {
+        font-size: 1.5rem;
+        padding: 12px 10px;
     }
     
     .input-wrapper input {
         font-size: 1.5rem;
+        padding: 12px 14px;
+    }
+    
+    .input-section small {
+        font-size: 0.875rem;
+    }
+    
+    .buttons-section {
+        gap: 12px;
+        margin-top: 25px;
+    }
+    
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.95rem;
+    }
+}
+
+/* Mobile devices (600px and below) */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+    
+    .logo {
+        font-size: 1.75rem;
+        margin-bottom: 25px;
+    }
+    
+    h1 {
+        font-size: 1.35rem;
+        margin-bottom: 25px;
+    }
+    
+    .input-section label {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    
+    .prefix {
+        font-size: 1.4rem;
+        padding: 11px 9px;
+    }
+    
+    .input-wrapper input {
+        font-size: 1.4rem;
+        padding: 11px 12px;
+        letter-spacing: 1.5px;
+    }
+    
+    .input-section small {
+        font-size: 0.8rem;
+        margin-top: 6px;
+    }
+    
+    .buttons-section {
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .btn {
+        padding: 11px 18px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Small mobile devices (480px and below) */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    
+    .input-section {
+        margin-bottom: 20px;
+    }
+    
+    .input-section label {
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
+    
+    .input-wrapper {
+        border-width: 1.5px;
+    }
+    
+    .prefix {
+        font-size: 1.25rem;
+        padding: 10px 8px;
+        border-right-width: 1.5px;
+    }
+    
+    .input-wrapper input {
+        font-size: 1.25rem;
+        padding: 10px 10px;
+        letter-spacing: 1px;
+    }
+    
+    .input-section small {
+        font-size: 0.75rem;
+        margin-top: 5px;
+    }
+    
+    .buttons-section {
+        gap: 8px;
+        margin-top: 18px;
+    }
+    
+    .btn {
+        padding: 10px 16px;
+        font-size: 0.85rem;
+        border-radius: 6px;
+    }
+}
+
+/* Large desktop (1200px and above) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 600px;
+    }
+    
+    .logo {
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+    
+    .input-wrapper {
+        max-width: 320px;
+    }
+    
+    .prefix {
+        font-size: 1.8rem;
+        padding: 16px 14px;
+    }
+    
+    .input-wrapper input {
+        font-size: 1.8rem;
+        padding: 16px 18px;
+    }
+    
+    .input-section label {
+        font-size: 1.25rem;
+    }
+    
+    .input-section small {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 16px 28px;
+        font-size: 1.05rem;
+    }
+}
+
+/* Landscape orientation on mobile devices */
+@media (max-width: 768px) and (orientation: landscape) {
+    body {
+        padding: 10px;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    
+    h1 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    
+    .input-section {
+        margin-bottom: 15px;
+    }
+    
+    .buttons-section {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    .btn {
+        flex: 1;
+        max-width: 200px;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .btn {
+        min-height: 44px; /* Minimum touch target size */
+    }
+}
+
+/* Prevent iOS zoom on input focus for touch devices */
+@media (hover: none) and (pointer: coarse) and (max-width: 600px) {
+    .input-wrapper input {
+        font-size: 16px; /* Prevents zoom on iOS */
     }
 }
 
