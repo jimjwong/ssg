@@ -18,6 +18,10 @@ This is purely a convenience tool created for trainers' and learners' convenienc
 
 The SSG Attendance Tool provides a quick and easy way to access QR code scanning and attendance status checking for SkillsFuture Singapore (SSG) funded courses. Users simply need to enter the 6-digit Course Run Code to access the necessary attendance functions.
 
+## Demo
+
+Try out the tool here: **[myskillsfuture.jimjwong.com](https://myskillsfuture.jimjwong.com)**
+
 ## Features
 
 - **Quick Course Code Entry**: Enter the 6-digit Course Run Code (without the "RA" prefix)
